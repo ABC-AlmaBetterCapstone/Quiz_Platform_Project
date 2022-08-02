@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import ResponsiveAppBar from './components/ResponsiveAppBar';
+import HomePage from './components/HomePage';
+//import App from './App';
+//import ResponsiveAppBar from './components/ResponsiveAppBar';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ResponsiveAppBar />
+    <HomePage />
   </React.StrictMode>
 );
 
